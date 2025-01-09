@@ -174,44 +174,51 @@
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                   <!-- Portfolio Modal - Title-->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Details</h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                   </div>
-                  <!-- Sub-menu -->
-                  <nav>
-                    <ul class="nav nav-tabs justify-content-center mb-4" id="mathProjectTabs" role="tablist">
-                      <li class="nav-item">
-                        <button class="nav-link active" id="files-tab" data-bs-toggle="tab" data-bs-target="#files" type="button" role="tab">Files</button>
-                      </li>
-                      <li class="nav-item">
-                        <button class="nav-link" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab">Details</button>
-                      </li>
-                    </ul>
-                  </nav>
+              <!-- Submenu -->
+              <nav>
+                <ul class="nav nav-tabs justify-content-center mb-4" id="mathProjectTabs" role="tablist">
+                  <li class="nav-item">
+                    <button class="nav-link active" id="program-linear-tab" data-bs-toggle="tab" data-bs-target="#program-linear" type="button" role="tab" aria-controls="program-linear" aria-selected="true">Program Linear</button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab" aria-controls="details" aria-selected="false">Details</button>
+                  </li>
+                </ul>
+              </nav>
 
-                  <!-- Konten Tab -->
-                  <div class="tab-content" id="mathProjectTabContent">
-                    <!-- Tab Files -->
-                    <div class="tab-pane fade show active" id="files" role="tabpanel" aria-labelledby="files-tab">
-                      <h4>Available Files</h4>
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <a href="assets/files/math_worksheet1.pdf" download>Math Worksheet 1</a>
-                        </li>
-                        <li class="list-group-item">
-                          <a href="assets/files/math_worksheet2.pdf" download>Math Worksheet 2</a>
-                        </li>
-                        <li class="list-group-item">
-                          <a href="assets/files/math_project_summary.pdf" download>Project Summary</a>
-                        </li>
-                      </ul>
+              <!-- Konten Tab -->
+              <div class="tab-content" id="mathProjectTabContent">
+                <!-- Tab Program Linear -->
+                <div class="tab-pane fade show active" id="program-linear" role="tabpanel" aria-labelledby="program-linear-tab">
+                  <h4>Files for Program Linear</h4>
+                  <div class="accordion" id="programLinearAccordion">
+                    <!-- Submenu Program Linear -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingProgramLinear">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProgramLinear" aria-expanded="true" aria-controls="collapseProgramLinear">
+                          Files for Pertemuan
+                        </button>
+                      </h2>
+                      <div id="collapseProgramLinear" class="accordion-collapse collapse show" aria-labelledby="headingProgramLinear" data-bs-parent="#programLinearAccordion">
+                        <div class="accordion-body">
+                          <ul class="list-group">
+                            <li class="list-group-item"><a href="assets/files/program_linear/pertemuan1.pdf" download>Pertemuan 1</a></li>
+                            <li class="list-group-item"><a href="assets/files/program_linear/pertemuan2.pdf" download>Pertemuan 2</a></li>
+                            <li class="list-group-item"><a href="assets/files/program_linear/pertemuan3.pdf" download>Pertemuan 3</a></li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
+
                 <!-- Tab Details -->
                 <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="details-tab">
                   <h4>Project Details</h4>
@@ -219,17 +226,8 @@
                 </div>
               </div>
 
-              <!-- Close Button -->
+              <!-- Tombol Tutup -->
               <button class="btn btn-secondary mt-4" data-bs-dismiss="modal">Close</button>
-            </div>
-            <!-- Portfolio Modal - Image-->
-              <img class="img-fluid rounded mb-5" src="assets/img/math.jpg" alt="..." />
-                <!-- Portfolio Modal - Text-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" data-bs-dismiss="modal">
-                <i class="fas fa-xmark fa-fw"></i>
-                Close Window
-              </button>
             </div>
           </div>
         </div>
