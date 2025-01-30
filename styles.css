@@ -11123,3 +11123,16 @@ html {
     margin: auto; /* Pusatkan item */
 }
 
+  <style>
+  .center-text {
+    text-align: center;
+  }
+</style>
+
+<!-- About Section Content-->
+<div class="row">
+  <div class="col-lg-5 me-auto lead center-text">
+    <p>Hi! Terima kasih sudah mengunjungi laman ini.</p>
+  </div>
+</div>
+
