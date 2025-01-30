@@ -11091,3 +11091,22 @@ html {
       text-align: center;
       padding: 10px 15px;
     }
+
+    .container {
+        display: flex;
+        justify-content: center; /* Pusatkan secara horizontal */
+        align-items: center; /* Pusatkan secara vertikal */
+        flex-wrap: wrap; /* Agar tetap rapi jika ada banyak elemen */
+        height: 100vh; /* Mengisi tinggi layar */
+        text-align: center; /* Pusatkan teks */
+    }
+      <div class="container">
+          <div class="card">
+              <img src="math_project.png" alt="Math Project">
+              <p>Math Project</p>
+          </div>
+          <div class="card">
+              <img src="internet_things.png" alt="Internet Things">
+              <p>Internet Things</p>
+          </div>
+      </div>
