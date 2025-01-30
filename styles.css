@@ -11110,3 +11110,16 @@ html {
               <p>Internet Things</p>
           </div>
       </div>
+
+  .portfolio .row {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    flex-wrap: wrap; /* Hindari tumpang tindih */
+    text-align: center;
+}
+
+.portfolio-item {
+    margin: auto; /* Pusatkan item */
+}
+
